@@ -1,4 +1,4 @@
-# 🧩 Document Analysis Pipeline Template
+# 🧩 Simple ATS Pipeline Template
 
 > A modular, secure, and extensible boilerplate for building LLM-powered document processing applications with RAG, structured output, and full observability.
 
