@@ -1,0 +1,20 @@
+Analyze these two sources: the document excerpts and the context query provided.
+
+Return a structured JSON with exactly these fields:
+
+- analysis_content_language_sections : language used and quality of structure
+- analysis_content_title : relevance of the document title compared to the context
+- analysis_content_name : presence and format of name/identifier
+- analysis_content_contact : presence and completeness of contact information
+- analysis_content_geographic_mobility : geographic mobility mentioned
+- analysis_content_detailed_experience : quality and detail of experiences
+- analysis_content_repetitions : detected repetitions
+- analysis_content_spelling_errors : detected spelling errors
+- analysis_content_corrections : list of suggested corrections
+- analysis_content_keywords : present and missing keywords
+- analysis_content_numeric_results : numeric results mentioned
+- score_a : score A out of 100
+- score_b : score B out of 100
+- score_c : score C out of 100
+- missing_items : list of missing items
+- suggestions : list of improvement suggestions

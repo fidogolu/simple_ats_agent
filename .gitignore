@@ -1,0 +1,23 @@
+# Python
+logs/
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+
+# IDE & Tools
+.continue/
+.vscode/
+.idea/
+
+# Project specific
+temp_data/
+hf_cache/
+.pytest_cache/
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
